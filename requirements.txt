@@ -1,0 +1,15 @@
+project/
+│
+├── app.py                   # Tệp chính để khởi động ứng dụng
+├── config.py                # Cấu hình của ứng dụng
+├── requirements.txt         # Danh sách các thư viện cần thiết
+│
+├── templates/               # Thư mục chứa các template HTML
+│   ├── base.html            # Template cơ bản dùng cho các trang
+│   └── login.html           # Template cho trang đăng nhập
+│   └── blog_home.html       # Template cho trang chủ blog
+│
+└── static/                  # Thư mục chứa các tệp tĩnh (CSS, JS, hình ảnh)
+    ├── css/
+    └── img/
+    └── js/
